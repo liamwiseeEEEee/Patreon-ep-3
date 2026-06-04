@@ -1,0 +1,14 @@
+https://www.icloud.com/shortcuts/d1f6b81549314571be19a7dd0726bc86
+
+Once added fitbit manual or apple watch copya nd paste this prompt to find yoru sleep and recovery score given data
+
+On my dashboard's vitals tile, auto-calculate a recovery/readiness score (1–99)
+whenever the source doesn't provide one (Apple Watch, Fitbit, or manual entry).
+Base it on data I already have: HRV (main driver, ~50%), resting heart rate
+(~25%), and sleep (~25%). Use Whoop's real recovery when Whoop is connected.
+Show it on the recovery ring, the Fitness Band card, and the live ticker, labeled
+"Recovery · est" so it's clear it's an estimate.
+
+Also fix the recovery ring's glow: it's clipping into a hard box at the SVG's
+bounding edge — set overflow:visible and use a soft radial aura that fades out,
+with a subtle pulse. Then push it.
