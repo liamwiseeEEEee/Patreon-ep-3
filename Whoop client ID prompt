@@ -1,0 +1,4 @@
+In api/whoop/_lib.js, the creds() function reads WHOOP_CLIENT_ID and
+WHOOP_CLIENT_SECRET from process.env. Wrap both in .trim() so stray spaces
+or newlines accidentally pasted into the Vercel environment variables don't
+cause a WHOOP "invalid_client" OAuth error. Then commit and push.
