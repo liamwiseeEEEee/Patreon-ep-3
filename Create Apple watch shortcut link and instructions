@@ -25,15 +25,13 @@ https://YOUR-VERCEL-NAME.vercel.app/api/apple
 
 
 
-Once added fitbit manual or apple watch copya nd paste this prompt to find yoru sleep and recovery score given data
+After connecting Fitbit, manual entry, or an Apple Watch shortcut, paste this
+prompt to auto-build your sleep + recovery scores from the data:
 
 On my dashboard's vitals tile, auto-calculate a recovery/readiness score (1–99)
 whenever the source doesn't provide one (Apple Watch, Fitbit, or manual entry).
-Base it on data I already have: HRV (main driver, ~50%), resting heart rate
-(~25%), and sleep (~25%). Use Whoop's real recovery when Whoop is connected.
-Show it on the recovery ring, the Fitness Band card, and the live ticker, labeled
-"Recovery · est" so it's clear it's an estimate.
+Base it on the data I already have: HRV (main driver, ~50%), resting heart rate
+(~25%), and sleep (~25%). Keep using Whoop's real recovery score when Whoop is
+connected. Show the result on the recovery ring, the Fitness Band card, and the
+live ticker, labeled "Recovery · est" so it's clear it's an estimate. Then push it.
 
-Also fix the recovery ring's glow: it's clipping into a hard box at the SVG's
-bounding edge — set overflow:visible and use a soft radial aura that fades out,
-with a subtle pulse. Then push it.
