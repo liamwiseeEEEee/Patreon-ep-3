@@ -1,5 +1,30 @@
 https://www.icloud.com/shortcuts/d1f6b81549314571be19a7dd0726bc86
 
+After you tap "Add Shortcut"
+1. Open the Shortcuts app → find the one you just added
+
+2. Tap the ••• (top-right of the shortcut) to edit it
+
+3. Scroll to the box that says "Get Contents of URL" — you'll see a web link in it
+
+4. Tap that link to highlight it, delete it, and paste in your own:
+
+
+https://YOUR-VERCEL-NAME.vercel.app/api/apple
+👉 Swap YOUR-VERCEL-NAME for your Vercel project name (mine is patron-rowan4)
+
+5. Tap Done (top-right)
+
+
+
+
+
+
+
+
+
+
+
 Once added fitbit manual or apple watch copya nd paste this prompt to find yoru sleep and recovery score given data
 
 On my dashboard's vitals tile, auto-calculate a recovery/readiness score (1–99)
