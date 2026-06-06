@@ -1,1 +1,23 @@
 Copy these two html for peak tracker in your own dashboard
+Add the Peak Tracker to my dashboard from my creator's repo. Do all of this:
+
+1. Download these two files into the project root (exact files, don't rebuild them):
+   curl -o peak.html https://raw.githubusercontent.com/liamwiseeEEEee/Patreon-ep-3/main/Peak-Tracker/peak.html
+   curl -o meds.html https://raw.githubusercontent.com/liamwiseeEEEee/Patreon-ep-3/main/Peak-Tracker/meds.html
+
+2. In index.html, add these two lines to the APPS array:
+   { file: 'peak.html', name: 'Peak', tag: 'Daily readiness · energy curve', icon: '🔆', wide: true },
+   { file: 'meds.html', name: 'Meds', tag: 'Doses · peak & comedown timing', icon: '💊' },
+   and add these two lines to the ART map:
+   'peak.html':'linear-gradient(135deg,#34D399,#22D3EE)',
+   'meds.html':'linear-gradient(135deg,#34D399,#22D3EE)',
+
+3. If I have an icons.js with window.DASH_ICONS, fetch
+   https://raw.githubusercontent.com/liamwiseeEEEee/Patreon-ep-3/main/Peak-Tracker/icons.js
+   and copy ONLY its 'peak.html' and 'meds.html' icon entries into my icons.js. If I
+   don't have icons.js, skip this — the cards will just use the emoji.
+
+4. Syntax-check the changed files, then commit and push.
+
+The Peak card should now appear on my dashboard. It works in Manual mode with no
+wearable; Whoop/Apple Watch sync once deployed.
