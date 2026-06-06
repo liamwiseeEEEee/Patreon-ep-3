@@ -1,17 +1,12 @@
-Add the Peak Tracker to my dashboard from my creator's public repo. Do all of this:
+I've added peak.html and meds.html to this project. Wire them up as dashboard cards:
 
-1. Download these two files into the project root (exact files — don't rebuild them):
-   curl -o peak.html https://raw.githubusercontent.com/liamwiseeEEEee/Patreon-ep-3/main/peak.html
-   curl -o meds.html https://raw.githubusercontent.com/liamwiseeEEEee/Patreon-ep-3/main/meds.html
+In index.html, add to the APPS array:
+  { file: 'peak.html', name: 'Peak', tag: 'Daily readiness · energy curve', icon: '🔆', wide: true },
+  { file: 'meds.html', name: 'Meds', tag: 'Doses · peak & comedown timing', icon: '💊' },
 
-2. In index.html, add these two lines to the APPS array:
-   { file: 'peak.html', name: 'Peak', tag: 'Daily readiness · energy curve', icon: '🔆', wide: true },
-   { file: 'meds.html', name: 'Meds', tag: 'Doses · peak & comedown timing', icon: '💊' },
-   and add these two lines to the ART map:
-   'peak.html':'linear-gradient(135deg,#34D399,#22D3EE)',
-   'meds.html':'linear-gradient(135deg,#34D399,#22D3EE)',
+In index.html, add to the ART map:
+  'peak.html':'linear-gradient(135deg,#34D399,#22D3EE)',
+  'meds.html':'linear-gradient(135deg,#34D399,#22D3EE)',
 
-3. Syntax-check the changed files, then commit and push.
+Syntax-check, then commit and push.
 
-The Peak + Meds cards should now appear on my dashboard. Peak works in Manual mode
-with no wearable; Whoop/Apple Watch sync once deployed.
